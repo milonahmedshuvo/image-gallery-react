@@ -1,22 +1,23 @@
 
-
+/* 
 .item:hover .checkbox {
     display: block;
-}
+    
+} */
 
-.item img {
+
+ /* .item img {
     opacity: 1;
     
 }
 
-.item:hover img {
-    opacity: 0.3;
-    
-    
-}
+ .item:hover img {
+    opacity: 0.2; 
+    z-index: 4;
+}  */
 
 
-.send:hover::after {
+/* .send:hover::after {
     background: black;
     width: 100%;
     height: 100%;
@@ -28,3 +29,20 @@
     border-radius: 10px;
     z-index: 1;
 }
+
+.al{
+    z-index:5 ;
+} */
+
+
+.container:hover .checkInput{
+    display: block;
+    }
+    
+    .container .checkInput{
+        display: none;
+    }
+    
+    .container .checkInput:checked{
+        display: block;
+    }
