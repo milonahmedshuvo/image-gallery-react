@@ -4,7 +4,7 @@ Create a responsive image gallery using React JS with the following features: re
 
 ### Project Features and Functionality :
 ##### 1.Gallery Layout:
-Implement a grid layout for the image gallery.
+Implement a grid layout for the image gallery. <br/>
 The gallery should display images with one feature image larger than the others.
 
 ##### 2.Sorting:
