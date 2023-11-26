@@ -154,7 +154,7 @@ const DragandDrop = () => {
             onDragEnd={handleDragEnd}
             // onClick={()=> deleteElement(item)}
 
-            className={`border  ease-in-out border-gray-300 hover:bg-black duration-500 rounded-xl relative container   mb-2 ${
+            className={`border ease-in-out border-gray-300 hover:bg-black duration-500 rounded-xl relative container   mb-2 ${
               index === 0 ? "col-span-2 h-full row-span-2 " : "col-span-1 md:h-[280px] h-44 row-span-1"
             } relative group ${
               draggedItem === item ? "shadow-md opacity-0" : ""
