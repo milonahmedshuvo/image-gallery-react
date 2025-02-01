@@ -9,7 +9,8 @@ function App() {
 
   return (
     <div className='max-w-screen-2xl mx-auto'>
-      <h1>hellow new Gallery</h1>
+      <h1>technology use react.js and next.js</h1>
+      <h1>hellow new Gallery FROM FRONT END DEVELOPER</h1>
 
       <DragAndDropList></DragAndDropList>
       
